@@ -1,0 +1,41 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #116466;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidenav {
+    width: 30%;
+    height: calc(100vh - 160px);
+    background-color: #EBA870;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-body {
+    width: 70%;
+    float: right;
+    height: calc(100vh - 160px);
+    background-color: #EEE3E4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #232725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
